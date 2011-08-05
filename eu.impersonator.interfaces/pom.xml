@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>eu.impersonator.parent</artifactId>
+		<groupId>eu.impersonator</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../eu.impersonator.parent</relativePath>
+	</parent>
+	
+	<groupId>eu.impersonator</groupId>
+	<artifactId>eu.impersonator.interfaces</artifactId>
+	<packaging>bundle</packaging>
+	<name>Impersonator Interfaces</name>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>The interfaces that are shared across the whole application</description>
+</project>
