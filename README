@@ -1,0 +1,13 @@
+OSGI Development with Maven
+
+This are the slides and example files for a tutorial that covers:
+
+- An OSGi introduction
+- Writing bundles with the maven-bundle-plugin
+- OSGi service discovery
+- Declarative services with the maven-scr-plugin
+- Launching from eclipse with pax-url-assembly
+
+Enjoy!
+
+Miquel Martin
