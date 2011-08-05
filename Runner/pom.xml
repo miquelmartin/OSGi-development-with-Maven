@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>eu.impersonator.parent</artifactId>
+		<groupId>eu.impersonator</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../eu.impersonator.parent</relativePath>
+	</parent>
+
+	<artifactId>Runner</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Impersonator Runner</name>
+	<description>A project to run the Impersonator on eclipse without pre-packaging all the bundles</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.main</artifactId>
+			<version>3.2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.ops4j.pax.url</groupId>
+			<artifactId>pax-url-assembly</artifactId>
+			<version>1.3.4</version>
+		</dependency>
+	</dependencies>
+	
+</project>
