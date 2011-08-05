@@ -11,7 +11,8 @@
 	<artifactId>Builder</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>impersonator</name>
+	<name>Builder</name>
+	<description>Build the whole project</description>
 	<build>
 		<plugins>
 			<plugin>
